@@ -1,3 +1,0 @@
-defaults
-workThreads
-	^ 30

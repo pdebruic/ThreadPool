@@ -2,7 +2,8 @@ system startup
 startUp
 	"self startUp"
 	self shutDown.
-	self workThreads timesRepeat: 
-		[ QueueWorkers add: ([ [ self processQueueElement ] repeat ] 
-				forkAt: Processor systemBackgroundPriority
-				named: 'threadpool') ]
+	MinPoolSize timesRepeat: [ self startWorker ].
+	PoolManager ifNotNil: [ PoolManager terminate ].
+	PoolManager := [ [ self adjustThreadPoolSize ] repeat ] 
+		forkAt: Processor systemBackgroundPriority
+		named: 'pool manager'
