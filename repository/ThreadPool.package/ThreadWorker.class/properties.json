@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ThreadPool",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"hasValue",
+		"block",
+		"expires"
+	],
+	"name" : "ThreadWorker",
+	"type" : "normal"
+}

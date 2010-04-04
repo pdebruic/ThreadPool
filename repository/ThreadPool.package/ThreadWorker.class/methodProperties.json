@@ -1,0 +1,12 @@
+{
+	"instance" : {
+		"block:" : "rjl 4/2/2010 14:24",
+		"hasValue" : "rjl 4/2/2010 14:23",
+		"expires:" : "rjl 4/2/2010 16:03",
+		"value" : "rjl 4/2/2010 16:06"
+	},
+	"class" : {
+		"on:expires:" : "rjl 4/2/2010 16:05",
+		"on:" : "rjl 4/2/2010 14:25"
+	}
+}

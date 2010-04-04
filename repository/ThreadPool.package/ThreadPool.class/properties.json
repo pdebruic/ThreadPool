@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ThreadPool",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"QueueWorkers",
+		"WorkQueue"
+	],
+	"instvars" : [ ],
+	"name" : "ThreadPool",
+	"type" : "normal"
+}

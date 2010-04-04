@@ -1,0 +1,3 @@
+defaults
+workThreads
+	^ 10
