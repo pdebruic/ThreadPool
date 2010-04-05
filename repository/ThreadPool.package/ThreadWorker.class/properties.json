@@ -8,7 +8,8 @@
 	"instvars" : [
 		"hasValue",
 		"block",
-		"expires"
+		"expires",
+		"value"
 	],
 	"name" : "ThreadWorker",
 	"type" : "normal"
