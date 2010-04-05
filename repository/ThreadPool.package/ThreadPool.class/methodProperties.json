@@ -1,14 +1,16 @@
 {
 	"instance" : { },
 	"class" : {
-		"queueWorkItem:expiresAt:session:" : "rjl 4/4/2010 09:57",
-		"queueWorkItem:expiresAt:" : "rjl 4/4/2010 10:05",
-		"adjustThreadPoolSize" : "rjl 4/4/2010 21:32",
-		"initialize" : "rjl 4/4/2010 20:54",
-		"killWorker" : "rjl 4/4/2010 21:34",
+		"startUp" : "rjl 4/4/2010 21:21",
 		"processQueueElement" : "rjl 4/4/2010 19:39",
+		"minPoolSize:" : "rjl 4/5/2010 09:17",
 		"shutDown" : "rjl 4/4/2010 22:02",
-		"startWorker" : "rjl 4/4/2010 21:16",
-		"startUp" : "rjl 4/4/2010 21:21"
+		"queueWorkItem:expiresAt:" : "rjl 4/4/2010 10:05",
+		"initialize" : "rjl 4/4/2010 20:54",
+		"startWorker" : "rjl 4/5/2010 09:18",
+		"queueWorkItem:expiresAt:session:" : "rjl 4/4/2010 09:57",
+		"adjustThreadPoolSize" : "rjl 4/5/2010 09:26",
+		"killWorker" : "rjl 4/5/2010 09:26",
+		"maxPoolSize:" : "rjl 4/5/2010 09:17"
 	}
 }
