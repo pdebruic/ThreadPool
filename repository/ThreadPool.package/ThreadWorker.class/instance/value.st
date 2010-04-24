@@ -1,6 +1,9 @@
 accessing
 value
-	self hasValue ifTrue: [ ^ value ].
-	TimeStamp now < expires ifTrue: [ value := block value ].
-	hasValue := true.
+	lock isSignaled ifFalse: [ lock wait ].
+	"rethrow any error from worker thread on calling thread"
+	error ifNotNil: 
+		[ error
+			privHandlerContext: thisContext;
+			signal ].
 	^ value

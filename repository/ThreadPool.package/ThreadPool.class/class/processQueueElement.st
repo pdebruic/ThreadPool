@@ -1,3 +1,5 @@
 actions
 processQueueElement
-	[ WorkQueue next value ] ignoreErrors
+	[ WorkQueue next evaluate ] 
+		on: Error
+		do: [  ]

@@ -1,3 +1,3 @@
 testing
 hasValue
-	^ hasValue ifNil: [ false ]
+	^ lock isSignaled

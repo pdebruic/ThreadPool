@@ -1,7 +1,7 @@
 actions
 adjustThreadPoolSize
 	| workerSize |
-	"starting up threads too fast is dangerous and wasteful, ensure a reasonable delay"
+	"starting up processes too fast is dangerous and wasteful, ensure a reasonable delay"
 	1 second asDelay wait.
 	workerSize := QueueWorkers size.
 	(workerSize < MinPoolSize or: [ WorkQueue size > workerSize and: [ workerSize < MaxPoolSize ] ]) 

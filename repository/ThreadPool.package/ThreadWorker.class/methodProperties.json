@@ -1,9 +1,11 @@
 {
 	"instance" : {
+		"value" : "rjl 4/23/2010 19:59",
 		"block:" : "rjl 4/2/2010 14:24",
-		"hasValue" : "rjl 4/2/2010 14:23",
-		"expires:" : "rjl 4/2/2010 16:03",
-		"value" : "rjl 4/6/2010 15:59"
+		"initialize" : "rjl 4/23/2010 19:14",
+		"hasValue" : "rjl 4/23/2010 19:02",
+		"evaluate" : "rjl 4/23/2010 19:57",
+		"expires:" : "rjl 4/2/2010 16:03"
 	},
 	"class" : {
 		"on:expires:" : "rjl 4/2/2010 16:05",
