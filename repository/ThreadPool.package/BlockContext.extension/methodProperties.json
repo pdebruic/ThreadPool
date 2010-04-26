@@ -1,9 +1,7 @@
 {
 	"instance" : {
-		"queueWorkAndExpireIn:session:" : "rjl 4/4/2010 21:02",
-		"queueWorkAndExpireAt:" : "rjl 4/4/2010 10:52",
-		"queueWorkAndExpireAt:session:" : "rjl 4/4/2010 10:52",
-		"queueWorkAndExpireIn:" : "rjl 4/4/2010 21:02"
+		"queueWorkAndExpireIn:session:" : "rjl 4/26/2010 15:18",
+		"queueWorkAndExpireIn:" : "rjl 4/26/2010 15:18"
 	},
 	"class" : { }
 }

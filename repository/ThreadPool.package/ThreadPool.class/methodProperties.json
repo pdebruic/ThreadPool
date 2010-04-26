@@ -11,7 +11,7 @@
 		"startWorker" : "rjl 4/5/2010 09:18",
 		"adjustThreadPoolSize" : "rjl 4/23/2010 19:07",
 		"queueWorkItem:expiresAt:session:" : "rjl 4/4/2010 09:57",
-		"killWorker" : "rjl 4/24/2010 00:52",
+		"killWorker" : "rjl 4/26/2010 15:20",
 		"maxPoolSize:" : "rjl 4/5/2010 09:17"
 	}
 }
