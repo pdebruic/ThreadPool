@@ -1,10 +1,7 @@
 actions
 adjustThreadPoolSize
-	| workerSize |
 	"starting up processes too fast is dangerous and wasteful, ensure a reasonable delay"
 	1 second asDelay wait.
-	workerSize := QueueWorkers size.
-	(workerSize < MinPoolSize or: [ WorkQueue size > workerSize and: [ workerSize < MaxPoolSize ] ]) 
+	self isPoolTooSmall 
 		ifTrue: [ self startWorker ]
-		ifFalse: [ (workerSize > MinPoolSize and: [ WorkQueue size < workerSize ]) 
-			ifTrue: [ self killWorker ] ]
+		ifFalse: [ self isPoolTooBig ifTrue: [ self killWorker ] ]

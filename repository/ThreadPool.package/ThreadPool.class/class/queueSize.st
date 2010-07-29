@@ -1,3 +1,0 @@
-queries
-queueSize
-	^ WorkQueue size
