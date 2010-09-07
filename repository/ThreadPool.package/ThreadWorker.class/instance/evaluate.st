@@ -3,5 +3,8 @@ evaluate
 	DateAndTime now < expires ifTrue: 
 		[ [ value := block value ] 
 			on: Error
-			do: [ :err | error := err ] ].
+			do: 
+				[ :err | 
+				SSConfig ifDev: [ self break ].
+				error := err ] ].
 	lock signal
