@@ -1,13 +1,14 @@
 {
 	"instance" : { },
 	"class" : {
+		"sharedQueue" : "RamonLeon 9/14/2010 17:30",
 		"minPoolSize:" : "rjl 4/5/2010 09:17",
 		"processQueueElement" : "rjl 4/23/2010 19:06",
 		"startUp" : "rjl 4/4/2010 21:21",
-		"shutDown" : "rjl 4/4/2010 22:02",
+		"shutDown" : "RamonLeon 9/14/2010 17:31",
 		"queueWorkItem:expiresAt:" : "rjl 4/4/2010 10:05",
 		"isPoolTooSmall" : "rjl 7/28/2010 20:24",
-		"initialize" : "RamonLeon 9/14/2010 17:05",
+		"initialize" : "RamonLeon 9/14/2010 17:31",
 		"startWorker" : "rjl 4/5/2010 09:18",
 		"queueWorkItem:expiresAt:session:" : "rjl 4/4/2010 09:57",
 		"adjustThreadPoolSize" : "rjl 7/28/2010 20:19",
