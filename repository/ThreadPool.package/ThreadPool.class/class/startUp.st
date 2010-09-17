@@ -3,6 +3,9 @@ startUp
 	"self startUp"
 	self shutDown.
 	MinPoolSize timesRepeat: [ self startWorker ].
-	PoolManager := [ [ self adjustThreadPoolSize ] repeat ] 
-		forkAt: Processor systemBackgroundPriority
-		named: 'pool manager'
+	ManageDelay := self defaultPollDelay. 
+	PoolManager := [ [ self adjustThreadPoolSize ] repeat ] newProcess.
+	PoolManager
+		priority: Processor systemBackgroundPriority;
+		name: 'pool';
+		resume

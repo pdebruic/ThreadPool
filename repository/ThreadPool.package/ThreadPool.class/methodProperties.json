@@ -1,18 +1,19 @@
 {
 	"instance" : { },
 	"class" : {
-		"sharedQueue" : "RamonLeon 9/14/2010 17:30",
+		"sharedQueue" : "rjl 9/16/2010 22:23",
 		"minPoolSize:" : "rjl 4/5/2010 09:17",
-		"processQueueElement" : "rjl 4/23/2010 19:06",
-		"startUp" : "rjl 4/4/2010 21:21",
+		"processQueueElement" : "rjl 9/16/2010 23:27",
+		"startUp" : "rjl 9/16/2010 23:55",
 		"shutDown" : "RamonLeon 9/14/2010 17:31",
 		"queueWorkItem:expiresAt:" : "rjl 4/4/2010 10:05",
+		"defaultPollDelay" : "rjl 9/16/2010 23:53",
+		"initialize" : "rjl 9/16/2010 22:51",
 		"isPoolTooSmall" : "rjl 7/28/2010 20:24",
-		"initialize" : "RamonLeon 9/14/2010 17:31",
-		"startWorker" : "rjl 4/5/2010 09:18",
+		"startWorker" : "rjl 9/16/2010 23:56",
+		"adjustThreadPoolSize" : "rjl 9/16/2010 23:28",
 		"queueWorkItem:expiresAt:session:" : "rjl 4/4/2010 09:57",
-		"adjustThreadPoolSize" : "rjl 7/28/2010 20:19",
-		"killWorker" : "rjl 7/28/2010 20:16",
+		"killWorker" : "rjl 7/30/2010 21:13",
 		"maxPoolSize:" : "rjl 4/5/2010 09:17",
 		"isPoolTooBig" : "rjl 7/28/2010 20:25"
 	}

@@ -5,6 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
+		"ManageDelay",
 		"MaxPoolSize",
 		"MinPoolSize",
 		"PoolManager",

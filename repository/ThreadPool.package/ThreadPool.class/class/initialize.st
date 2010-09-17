@@ -1,7 +1,7 @@
 class initialization
 initialize
 	"self initialize"
-
+	ManageDelay := self defaultPollDelay.
 	WorkQueue := self sharedQueue new.
 	QueueWorkers := OrderedCollection new.
 	MinPoolSize := 5.
