@@ -1,5 +1,6 @@
 actions
 processQueueElement
-	[ WorkQueue next evaluate ] 
+	[WorkQueue next evaluate.
+	Processor yield ]
 		on: Error
-		do: [  ]
+		do: []

@@ -1,3 +1,3 @@
 class initialization
 defaultPollDelay
-	^ Delay forSeconds: 3
+	^ Delay forSeconds: 2
