@@ -2,8 +2,8 @@ class initialization
 initialize
 	"self initialize"
 	ManageDelay := self defaultPollDelay.
-	WorkQueue := self sharedQueue new.
+	WorkQueue := SharedQueue new.
 	QueueWorkers := OrderedCollection new.
 	MinPoolSize := 5.
 	MaxPoolSize := 15.
-	Smalltalk addToStartUpList: self
+	SmalltalkImage current addToStartUpList: self
