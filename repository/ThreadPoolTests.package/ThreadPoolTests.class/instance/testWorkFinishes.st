@@ -1,9 +1,5 @@
 running
 testWorkFinishes
-	| jobs start |
-	jobs := OrderedCollection new.
-	start := DateAndTime now.
-	200 timesRepeat: [ jobs add: [ Transcript show: Processor activeProcess name ] queueWork ].
-	[ jobs anySatisfy: [ :e | e hasValue not ] ] whileTrue: [ 2 seconds asDelay wait ].
-	self assert: true.
-	Transcript show: DateAndTime now - start.
+	200 timesRepeat: [  jobs add: ([ 'it finished' ] queueWork) ].
+	(Delay forMilliseconds: 600) wait.
+	self assert: (jobs allSatisfy: [ :e | e value = 'it finished' ])
