@@ -1,4 +1,4 @@
-accessing
+evaluating
 value
 	lock isSignaled ifFalse: [ lock wait ].
 	"rethrow any error from worker thread on calling thread"

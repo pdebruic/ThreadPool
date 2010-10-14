@@ -1,3 +1,3 @@
-class initialization
+initialize-release
 unload
 	SmalltalkImage current removeFromStartUpList: self

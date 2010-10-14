@@ -1,5 +1,5 @@
 actions
-adjustThreadPoolSize
+adjustPoolSize
 	"starting up processes too fast is dangerous and wasteful, ensure a reasonable delay"
 	ManageDelay wait.
 	self isPoolTooSmall 

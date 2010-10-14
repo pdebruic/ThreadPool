@@ -1,0 +1,1 @@
+I maintain a pool of worker threads with a shared queue and grow and shrink the pool as necessary based on the current load and min and max settings.

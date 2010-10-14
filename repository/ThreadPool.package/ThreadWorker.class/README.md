@@ -1,0 +1,1 @@
+When a job is queued, I'm returned as a value object to get the future result, or to poll until a result is available.  I will block until ready if value is called, or you can poll hasValue to prevent blocking.
