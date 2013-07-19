@@ -5,5 +5,5 @@ initialize
 	WorkQueue := SharedQueue new.
 	QueueWorkers := OrderedCollection new.
 	MinPoolSize := 5.
-	MaxPoolSize := 18.
+	MaxPoolSize := 15.
 	SmalltalkImage current addToStartUpList: self

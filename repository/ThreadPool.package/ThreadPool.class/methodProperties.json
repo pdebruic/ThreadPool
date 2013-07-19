@@ -10,7 +10,7 @@
 		"queueWorkItem:expiresAt:" : "rjl 4/4/2010 10:05",
 		"unload" : "RamonLeon 10/13/2010 22:16",
 		"defaultPollDelay" : "RamonLeon 9/17/2010 09:14",
-		"initialize" : "PaulDeBruicker 12/23/2010 13:51",
+		"initialize" : "RamonLeon 10/13/2010 22:16",
 		"isPoolTooSmall" : "rjl 7/28/2010 20:24",
 		"startWorker" : "rjl 9/16/2010 23:56",
 		"queueWorkItem:expiresAt:session:" : "RamonLeon 10/13/2010 21:17",
