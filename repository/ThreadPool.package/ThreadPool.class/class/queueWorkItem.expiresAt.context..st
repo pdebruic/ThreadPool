@@ -8,4 +8,5 @@ queueWorkItem: aBlock expiresAt: aTimestamp context: aContext
 		on: [ (self environment at: #WACurrentRequestContext) use: aContext during: aBlock ]
 		expires: aTimestamp.
 	WorkQueue nextPut: worker.
+		self checkIfPoolManangerShouldStart.
 	^ worker

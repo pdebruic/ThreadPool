@@ -4,6 +4,6 @@ initialize
 	ManageDelay := self defaultPollDelay.
 	WorkQueue := SharedQueue new.
 	QueueWorkers := OrderedCollection new.
-	MinPoolSize := 5.
+	MinPoolSize := 0.
 	MaxPoolSize := 15.
 	SmalltalkImage current addToStartUpList: self

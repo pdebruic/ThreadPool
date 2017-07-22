@@ -1,21 +1,24 @@
 {
 	"instance" : { },
 	"class" : {
-		"adjustPoolSize" : "RamonLeon 10/14/2010 10:45",
-		"minPoolSize:" : "rjl 4/5/2010 09:17",
-		"processQueueElement" : "RamonLeon 11/7/2010 12:51",
-		"queueWorkItem:expiresAt:context:" : "RamonLeon 10/25/2010 16:38",
-		"shutDown" : "PaulDeBruicker 6/9/2016 17:11",
-		"startUp" : "RamonLeon 10/14/2010 10:45",
-		"queueWorkItem:expiresAt:" : "rjl 4/4/2010 10:05",
 		"unload" : "RamonLeon 10/13/2010 22:16",
-		"defaultPollDelay" : "RamonLeon 9/17/2010 09:14",
-		"initialize" : "RamonLeon 10/13/2010 22:16",
+		"initialize" : "PaulDeBruicker 7/22/2017 12:04",
 		"isPoolTooSmall" : "rjl 7/28/2010 20:24",
-		"startWorker" : "rjl 9/16/2010 23:56",
-		"queueWorkItem:expiresAt:session:" : "PaulDeBruicker 9/12/2014 20:51",
+		"stopPoolManager" : "PaulDeBruicker 7/22/2017 12:17",
+		"startPoolManager" : "PaulDeBruicker 7/22/2017 11:54",
+		"processQueueElement" : "RamonLeon 11/7/2010 12:51",
+		"isPoolTooBig" : "rjl 7/28/2010 20:25",
+		"shutDown" : "PaulDeBruicker 7/22/2017 11:56",
 		"killWorker" : "RamonLeon 10/13/2010 21:21",
+		"queueWorkItem:expiresAt:session:" : "PaulDeBruicker 7/22/2017 12:08",
+		"startUp" : "PaulDeBruicker 7/22/2017 11:54",
 		"maxPoolSize:" : "rjl 4/5/2010 09:17",
-		"isPoolTooBig" : "rjl 7/28/2010 20:25"
+		"adjustPoolSize" : "PaulDeBruicker 7/22/2017 12:07",
+		"startWorker" : "rjl 9/16/2010 23:56",
+		"minPoolSize:" : "rjl 4/5/2010 09:17",
+		"queueWorkItem:expiresAt:" : "PaulDeBruicker 7/22/2017 12:08",
+		"queueWorkItem:expiresAt:context:" : "PaulDeBruicker 7/22/2017 12:08",
+		"defaultPollDelay" : "RamonLeon 9/17/2010 09:14",
+		"checkIfPoolManangerShouldStart" : "PaulDeBruicker 7/22/2017 12:22"
 	}
 }
